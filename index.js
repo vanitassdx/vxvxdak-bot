@@ -11,7 +11,7 @@ bot.on("message", (msg) => {
   if (msg.text === "/start") {
     bot.sendMessage(
       msg.chat.id,
-      `مرحبا, ${msg.chat.first_name} ${msg.chat.last_name}أرسل رابط يوتيوب وسوف يتحول لرابط مباشر `
+      `مرحبا, ${msg.chat.first_name} أرسل رابط يوتيوب وسوف يتحول لرابط مباشر `
     );
   } else {
     getInfo(msg);
